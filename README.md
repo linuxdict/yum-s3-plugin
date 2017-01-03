@@ -24,14 +24,18 @@ objects from S3, which allows using credentials.
 
 # Install
 
-- run ./package to build a RPM
-- install
+Option-1
+- run ./package -d to build a RPM
+- install with rpm -ivh RPMS/noarch/yum-s3-0.2.4-1.noarch.rpm
+
+Option-2
+- get yum-s3-0.2.4-1.noarch.rpm
 
 # How to configure a S3 based repo
 
     [repoprivate-pool-noarch]
     name=repoprivate-pool-noarch
-    baseurl=http://<YOURBUCKET>.s3-website-eu-west-1.amazonaws.com/<YOURPATH>
+    baseurl=http://<YOURBUCKET>.s3.amazonaws.com/<YOURREPOPATH>
     gpgcheck=0
     priority=1
     s3_enabled=1
