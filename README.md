@@ -29,7 +29,7 @@ Option-1
 - install with rpm -ivh RPMS/noarch/yum-s3-0.2.4-1.noarch.rpm
 
 Option-2
-- get yum-s3-0.2.4-1.noarch.rpm
+- yum install https://github.com/linuxdict/yum-s3-plugin/raw/master/yum-s3-0.2.4-1.noarch.rpm
 
 # How to configure a S3 based repo
 
