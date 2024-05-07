@@ -1,0 +1,25 @@
+{
+  "SPDXID" : "SPDXRef-DOCUMENT",
+  "spdxVersion" : "SPDX-2.2",
+  "creationInfo" : {
+    "created" : "2024-05-07T11:57:50Z",
+    "creators" : [ "Tool: ort-22.2.0" ],
+    "licenseListVersion" : "3.23"
+  },
+  "name" : "yums3plugin",
+  "dataLicense" : "CC0-1.0",
+  "documentNamespace" : "spdx://c977c4b3-e9b1-433b-93b4-949f36570d90",
+  "documentDescribes" : [ "SPDXRef-Project-Unmanaged-yum-s3-plugin-3124be73490cee79ae38ef60b69bd981356c7d01" ],
+  "packages" : [ {
+    "SPDXID" : "SPDXRef-Project-Unmanaged-yum-s3-plugin-3124be73490cee79ae38ef60b69bd981356c7d01",
+    "copyrightText" : "NONE",
+    "downloadLocation" : "NONE",
+    "filesAnalyzed" : false,
+    "homepage" : "NONE",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "NOASSERTION",
+    "name" : "yum-s3-plugin",
+    "summary" : "NONE",
+    "versionInfo" : "3124be73490cee79ae38ef60b69bd981356c7d01"
+  } ]
+}

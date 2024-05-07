@@ -1,0 +1,90 @@
+{
+  "repository" : {
+    "vcs" : {
+      "type" : "Git",
+      "url" : "https://github.com/linuxdict/yum-s3-plugin",
+      "revision" : "3124be73490cee79ae38ef60b69bd981356c7d01",
+      "path" : ""
+    },
+    "vcs_processed" : {
+      "type" : "Git",
+      "url" : "https://github.com/linuxdict/yum-s3-plugin.git",
+      "revision" : "3124be73490cee79ae38ef60b69bd981356c7d01",
+      "path" : ""
+    },
+    "config" : { }
+  },
+  "analyzer" : {
+    "start_time" : "2024-05-07T11:57:28.382610056Z",
+    "end_time" : "2024-05-07T11:57:28.743443764Z",
+    "environment" : {
+      "ort_version" : "22.2.0",
+      "build_jdk" : "11.0.23+9",
+      "java_version" : "17.0.11",
+      "os" : "Linux",
+      "processors" : 4,
+      "max_memory" : 5368709120,
+      "variables" : {
+        "HOME" : "/home/ort",
+        "JAVA_HOME" : "/opt/java/openjdk",
+        "ANDROID_HOME" : "/opt/android-sdk"
+      },
+      "tool_versions" : { }
+    },
+    "config" : {
+      "allow_dynamic_versions" : false,
+      "skip_excluded" : false
+    },
+    "result" : {
+      "projects" : [ {
+        "id" : "Unmanaged::yum-s3-plugin:3124be73490cee79ae38ef60b69bd981356c7d01",
+        "definition_file_path" : "",
+        "declared_licenses" : [ ],
+        "declared_licenses_processed" : { },
+        "vcs" : {
+          "type" : "",
+          "url" : "",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/linuxdict/yum-s3-plugin",
+          "revision" : "3124be73490cee79ae38ef60b69bd981356c7d01",
+          "path" : ""
+        },
+        "homepage_url" : "",
+        "scopes" : [ ]
+      } ],
+      "packages" : [ ]
+    }
+  },
+  "scanner" : null,
+  "advisor" : null,
+  "evaluator" : null,
+  "resolved_configuration" : {
+    "package_curations" : [ {
+      "provider" : {
+        "id" : "DefaultDir"
+      },
+      "curations" : [ ]
+    }, {
+      "provider" : {
+        "id" : "DefaultFile"
+      },
+      "curations" : [ ]
+    } ]
+  },
+  "labels" : {
+    "sw-name" : "yums3plugin",
+    "sw-version" : "3124be7",
+    "ort-config-repository" : "https://github.com/oss-review-toolkit/ort-config.git",
+    "ort-config-revision" : "c2a775ab65b46a6133ba6d8f37c2dd4ab88fd29a",
+    "ort-docker-image" : "ghcr.io/oss-review-toolkit/ort:latest",
+    "ci-url" : "https://github.com/linuxdict/yum-s3-plugin/actions/runs/8984857385",
+    "ci-actor" : "linuxdict",
+    "ci-event-name" : "push",
+    "ci-date" : "2024-05-07",
+    "ci-retention-days" : "90"
+  }
+}
