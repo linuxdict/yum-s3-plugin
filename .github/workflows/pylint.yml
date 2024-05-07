@@ -11,3 +11,8 @@ jobs:
       run: git config --global url.https://github.com/.insteadOf ssh://git@github.com/
     - name: Run GitHub Action for ORT
       uses: oss-review-toolkit/ort-ci-github-action@v1
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        personal_token: ${{ secrets.PERSONAL_TOKEN }}
+        publish_dir: ${{ ORT_RESULTS_PATH }}
